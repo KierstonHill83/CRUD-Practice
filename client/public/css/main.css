@@ -10,3 +10,7 @@ a {
 h1 {
   text-align: center;
 }
+
+.message-section {
+  display: none;
+}
