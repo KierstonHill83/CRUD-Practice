@@ -3,7 +3,7 @@ var router = express.Router();
 var Llama = require('../models/llamas.js');
 
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Llamas' });
 });
 
 //GET ALL llamas
